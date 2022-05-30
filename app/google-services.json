@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "433743904264",
+    "project_id": "ladmu4practica1almacensms",
+    "storage_bucket": "ladmu4practica1almacensms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433743904264:android:85fbb999821c7375909bbd",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.ladm_u4_practica1_almacensms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433743904264-m0roiermru87t91n6s2vpo8tu4d3se0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF_X_-sGBniQNI4JmDn1VVf5n8KZ6bO8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433743904264-m0roiermru87t91n6s2vpo8tu4d3se0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

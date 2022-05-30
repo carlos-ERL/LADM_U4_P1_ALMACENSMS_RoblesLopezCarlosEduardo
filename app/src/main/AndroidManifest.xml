@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="mx.edu.ittepic.ladm_u4_practica1_almacensms">
 
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,6 +25,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name=".SMSReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" ></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
