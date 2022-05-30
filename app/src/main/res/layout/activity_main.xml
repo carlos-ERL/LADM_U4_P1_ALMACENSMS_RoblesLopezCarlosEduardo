@@ -30,13 +30,14 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:id="@+id/ultimRecibido"
-        android:text="Ultimo mensaje recibido"
+        android:text="Ultimo mensaje registrado"
         />
-    <ListView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/listaMensajes"
 
-        />
+    <ListView
+        android:id="@+id/listaMensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp" />
 
 </LinearLayout>
