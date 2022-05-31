@@ -25,6 +25,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enviar SMS" />
+    <Button
+        android:id="@+id/descargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descargar registros" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,11 +39,17 @@
         android:text="Ultimo mensaje registrado"
         />
 
+
     <ListView
         android:id="@+id/listaMensajes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
         android:layout_marginTop="20dp"
-        android:paddingBottom="20dp" />
+        android:layout_marginBottom="20dp" />
+    <Button
+        android:id="@+id/botonAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABRIR ARCHIVO DESCARGADO" />
 
 </LinearLayout>
